@@ -1,0 +1,13 @@
+DELAY 1000
+GUI SPACE
+STRING Terminal
+DELAY 500
+ENTER
+DELAY 500
+STRING osascript -e 'set volume 7'
+ENTER
+DELAY 500
+STRING open https://www.youtube.com/watch?v=dQw4w9WgXcQ
+ENTER
+
+

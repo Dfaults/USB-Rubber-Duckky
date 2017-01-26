@@ -1,0 +1,15 @@
+REM Give me a YouTube sub
+REM will open youtube URL with default browser and leave a sub and close the browser
+REM replace the ID with your own
+DELAY 1000
+GUI r
+DELAY 200
+STRING https://www.youtube.com/channel/Channel_ID?sub_confirmation=1
+ENTER
+DELAY 5000
+TAB
+TAB
+SPACE
+DELAY 1000
+ALT F4
+

@@ -1,0 +1,18 @@
+REM Description: This script only opens notepad and writes some sample text so the kids can see
+REM Author: Dfaults
+DELAY 750
+GUI r
+DELAY 500
+STRING powershell Start-Process notepad 
+ENTER
+DELAY 750
+ENTER
+STRING HELLO KIDS!!! THIS IS A SAMPLE SCRIPT 
+ENTER
+DELAY 100
+STRING YOU JUST GOT HACKED!!!!!!!!!!!!!
+ENTER 
+STRING BY INTERPENTEST ~/
+ENTER
+ENTER
+

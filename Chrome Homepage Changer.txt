@@ -1,0 +1,19 @@
+DELAY 2000
+GUI r
+DELAY 1000
+STRING chrome.exe
+ENTER
+DELAY 300
+ALT D
+DELAY 150
+STRING chrome://settings/homePageOverlay
+ENTER
+DELAY 1500
+TAB
+DELAY 400
+STRING www.pornhub.com
+DELAY 100
+TAB
+ENTER
+CTRL W
+
